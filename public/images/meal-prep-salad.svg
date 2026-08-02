@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">Meal-prep salad illustration</title>
+  <desc id="desc">A warm illustration of a salad bowl with greens, tomatoes, grains and walnuts.</desc>
+  <rect width="1200" height="900" fill="#e4e8d8"/>
+  <circle cx="1010" cy="130" r="185" fill="#f2d0a6" opacity=".8"/>
+  <circle cx="100" cy="800" r="240" fill="#cbd8c2" opacity=".75"/>
+  <ellipse cx="600" cy="708" rx="390" ry="68" fill="#71806d" opacity=".18"/>
+  <path d="M250 434h700c-18 252-147 365-350 365S267 686 250 434Z" fill="#f8f2e8" stroke="#344e3e" stroke-width="18"/>
+  <path d="M283 447c76 92 557 93 634 0" fill="none" stroke="#d7c5ad" stroke-width="10"/>
+  <g stroke="#344e3e" stroke-width="10" stroke-linejoin="round">
+    <path d="M315 420c-85-122 64-202 140-86 37-128 198-93 181 34-18 126-250 130-321 52Z" fill="#5f8d5d"/>
+    <path d="M565 407c-61-133 104-189 162-64 62-110 211-27 146 87-77 82-253 56-308-23Z" fill="#769e68"/>
+  </g>
+  <g fill="#c75e48" stroke="#863d31" stroke-width="8">
+    <circle cx="420" cy="455" r="62"/><circle cx="790" cy="438" r="57"/><circle cx="620" cy="476" r="50"/>
+  </g>
+  <g fill="#e9c77b" stroke="#9f7f44" stroke-width="7">
+    <circle cx="520" cy="405" r="18"/><circle cx="558" cy="425" r="17"/><circle cx="706" cy="405" r="18"/><circle cx="743" cy="473" r="16"/><circle cx="480" cy="488" r="16"/>
+  </g>
+  <g fill="#ac7d4e" stroke="#6f4e31" stroke-width="8">
+    <path d="M350 506q75-65 137 8-71 84-137-8Z"/><path d="M744 520q65-76 134-7-60 92-134 7Z"/>
+  </g>
+  <path d="M974 680c52-98 76-209 62-326" fill="none" stroke="#344e3e" stroke-width="11" stroke-linecap="round"/>
+  <g fill="#6e9662" stroke="#344e3e" stroke-width="8">
+    <path d="M1027 444c-76-17-102 60-90 102 63 5 101-45 90-102Z"/><path d="M1034 379c74-30 112 38 107 83-58 16-105-27-107-83Z"/>
+  </g>
+</svg>
