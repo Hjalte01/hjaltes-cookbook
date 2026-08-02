@@ -6,7 +6,7 @@ English is the default language. The English/Danish switch is saved in the brows
 
 ## Run it locally
 
-You need [Node.js](https://nodejs.org/) 22 or newer and npm.
+You need [Node.js](https://nodejs.org/) 22 or newer and npm. GitHub Actions builds the deployed site with Node.js 24.
 
 ```bash
 npm install
