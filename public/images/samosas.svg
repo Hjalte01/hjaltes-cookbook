@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">Samosas illustration</title>
+  <desc id="desc">Three golden triangular samosas on a cream plate beside green chutney.</desc>
+  <rect width="1200" height="900" fill="#f1ddc5"/>
+  <circle cx="140" cy="100" r="230" fill="#d9e2cf"/>
+  <circle cx="1120" cy="830" r="270" fill="#e2b079" opacity=".65"/>
+  <ellipse cx="600" cy="730" rx="420" ry="65" fill="#674c36" opacity=".18"/>
+  <ellipse cx="600" cy="495" rx="470" ry="290" fill="#fff7df" stroke="#573e2d" stroke-width="14"/>
+  <ellipse cx="600" cy="495" rx="420" ry="245" fill="none" stroke="#e6d09d" stroke-width="9"/>
+  <g fill="#dfa64e" stroke="#573e2d" stroke-width="13" stroke-linejoin="round">
+    <path d="M330 505 510 240 685 520Q510 565 330 505Z"/>
+    <path d="M580 625 770 325 955 625Q780 680 580 625Z"/>
+    <path d="M230 640 390 400 590 650Q405 705 230 640Z"/>
+  </g>
+  <g fill="none" stroke="#b67a35" stroke-width="7" stroke-linecap="round">
+    <path d="m510 280 12 230 130 3M770 370l18 248 130 4M390 440l24 210 137-2"/>
+    <path d="m443 409 12 8m97 32 14 8m166 76 12 8m92 36 14 8m-477 13 12 8m84 16 14 8"/>
+  </g>
+  <ellipse cx="855" cy="260" rx="105" ry="68" fill="#fff7df" stroke="#573e2d" stroke-width="11"/>
+  <ellipse cx="855" cy="254" rx="82" ry="46" fill="#6e9966"/>
+  <path d="m813 255 28-12 31 20 25-13" fill="none" stroke="#344e3e" stroke-width="7" stroke-linecap="round"/>
+</svg>

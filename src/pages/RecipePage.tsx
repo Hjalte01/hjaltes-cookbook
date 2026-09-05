@@ -147,6 +147,9 @@ export function RecipePage({ language, slug }: Props) {
               <ul>{recipe.storage.map((item) => <li key={item.en}>{item[language]}</li>)}</ul>
             </section>
           )}
+          {recipe.source && (
+            <p>{language === 'en' ? 'Adapted from' : 'Tilpasset fra'} <a href={recipe.source.url}>{recipe.source.name}</a>.</p>
+          )}
         </div>
       </div>
       <div className="recipe-bottom page-width"><a className="button secondary" href="#/">← {copy.back}</a></div>

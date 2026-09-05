@@ -39,6 +39,7 @@ export interface Recipe {
   servings: LocalizedText
   categories: LocalizedText[]
   tags: LocalizedText[]
+  source?: { name: string; url: string }
   ingredientSections?: IngredientSection[]
   choiceGroups?: IngredientChoiceGroup[]
   instructions: LocalizedText[]

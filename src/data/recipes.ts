@@ -19,6 +19,58 @@ const ingredient = (
 
 export const recipes: Recipe[] = [
   {
+    id: 'samosas',
+    slug: 'samosas',
+    title: text('Samosas', 'Samosaer'),
+    description: text('Crisp parcels with spiced potato and peas.', 'Sprøde trekanter med krydrede kartofler og ærter.'),
+    image: 'images/samosas.svg',
+    imageAlt: text('Illustrated golden samosas on a plate with green chutney', 'Illustrerede gyldne samosaer på en tallerken med grøn chutney'),
+    prepTime: text('About 50 minutes, including resting', 'Ca. 50 minutter, inkl. hviletid'),
+    cookTime: text('20–30 minutes', '20–30 minutter'),
+    servings: text('16 samosas', '16 samosaer'),
+    categories: [text('Snack', 'Snack')],
+    tags: [text('Indian', 'Indisk'), text('Vegan', 'Vegansk')],
+    source: { name: 'Den Kinesiske Købmand', url: 'https://www.denkinesiskekoebmand.dk/opskrift?id_cookbook=20' },
+    ingredientSections: [
+      {
+        id: 'dough',
+        title: text('Dough', 'Dej'),
+        ingredients: [
+          ingredient('flour', 'Plain flour', 'Hvedemel', '250 g', '250 g'),
+          ingredient('dough-salt', 'Salt', 'Salt', '1 tsp', '1 tsk.'),
+          ingredient('dough-oil', 'Oil', 'Olie', '2 tbsp', '2 spsk.'),
+          ingredient('water', 'Water', 'Vand', '120 ml', '120 ml'),
+        ],
+      },
+      {
+        id: 'filling',
+        title: text('Filling', 'Fyld'),
+        ingredients: [
+          ingredient('potatoes', 'Large potatoes, boiled and mashed', 'Store kartofler, kogte og mosede', '2', '2'),
+          ingredient('peas', 'Peas', 'Ærter', '100 g', '100 g'),
+          ingredient('onion', 'Onion, finely chopped', 'Løg, finthakket', '1', '1'),
+          ingredient('garlic', 'Garlic, finely chopped', 'Hvidløg, finthakket', '2 cloves', '2 fed'),
+          ingredient('ginger', 'Fresh ginger, grated', 'Frisk ingefær, revet', '1 tsp', '1 tsk.'),
+          ingredient('garam-masala', 'Garam masala', 'Garam masala', '1 tsp', '1 tsk.'),
+          ingredient('cumin', 'Cumin', 'Spidskommen', '1 tsp', '1 tsk.'),
+          ingredient('chilli', 'Chilli powder', 'Chilipulver', '½ tsp', '½ tsk.'),
+          ingredient('filling-salt', 'Salt', 'Salt', 'To taste', 'Efter smag'),
+          ingredient('frying-oil', 'Oil', 'Olie', 'For sautéing and deep-frying', 'Til stegning og friture'),
+        ],
+      },
+    ],
+    instructions: [
+      text('Mix flour, salt and oil; gradually add water to form a firm dough. Knead 5–7 minutes, cover and rest 30 minutes.', 'Bland mel, salt og olie; tilsæt vand gradvist til en fast dej. Ælt 5–7 minutter, dæk til og hvil 30 minutter.'),
+      text('Soften onion, garlic and ginger in a little oil. Stir in potatoes, peas, spices and salt; let cool.', 'Steg løg, hvidløg og ingefær bløde i lidt olie. Vend kartofler, ærter, krydderier og salt i; afkøl.'),
+      text('Divide dough into 8 balls. Roll each into a thin circle and cut in half.', 'Del dejen i 8 kugler. Rul hver til en tynd cirkel, og skær den over.'),
+      text('Fold each semicircle into a cone, overlapping and sealing the straight edge with water. Add about 1 tbsp filling; moisten and pinch the opening shut.', 'Fold hver halvcirkel til en kegle; lad den lige kant overlappe, og luk med vand. Kom ca. 1 spsk. fyld i; fugt og klem åbningen sammen.'),
+      text('Deep-fry in batches until golden and crisp. Drain on kitchen paper; serve with chutney.', 'Frituresteg i hold til gyldne og sprøde. Lad dryppe af på køkkenrulle; servér med chutney.'),
+    ],
+    variations: [
+      text('Oven: brush with oil and bake at 200°C for 25–30 minutes, until golden.', 'Ovn: pensl med olie, og bag ved 200 °C i 25–30 minutter til gyldne.'),
+    ],
+  },
+  {
     id: 'meal-prep-salad',
     slug: 'meal-prep-salad',
     title: text("Hjalte’s Customizable Meal-Prep Salad", 'Hjaltes valgfri meal-prep-salat'),

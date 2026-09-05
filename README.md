@@ -72,6 +72,8 @@ The `#` is intentional. It makes direct links and browser refreshes work on GitH
 
 All content is in [`src/data/recipes.ts`](src/data/recipes.ts), separate from the components. The reusable schema is in [`src/types/recipe.ts`](src/types/recipe.ts).
 
+Keep every recipe concise: a short description, ingredients, and compact steps. Include essential timings and technique; skip long introductions, repeated advice, and unnecessary notes.
+
 Add another object to the exported `recipes` array. A standard recipe looks like this:
 
 ```ts
